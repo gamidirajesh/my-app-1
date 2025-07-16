@@ -1,0 +1,7 @@
+    image:
+      repository: gamidirajesh/asp.netcorewebapplication
+      tag: "2"
+      pullPolicy: IfNotPresent
+    service:
+      type: ClusterIP
+      port: 80
