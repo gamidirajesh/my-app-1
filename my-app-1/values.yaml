@@ -3,5 +3,5 @@
       tag: "2"
       pullPolicy: IfNotPresent
     service:
-      type: ClusterIP
+      type: LoadBalancer
       port: 80
