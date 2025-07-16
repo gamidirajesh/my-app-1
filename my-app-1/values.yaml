@@ -1,6 +1,6 @@
     image:
-      repository: gamidirajesh/sampleapp
-      tag: "116"
+      repository: nginx
+      tag: "stable-alpine3.21-perl"
       pullPolicy: IfNotPresent
     service:
       type: LoadBalancer
