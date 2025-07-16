@@ -1,6 +1,6 @@
     image:
-      repository: gamidirajesh/asp.netcorewebapplication
-      tag: "2"
+      repository: gamidirajesh/sampleapp
+      tag: "116"
       pullPolicy: IfNotPresent
     service:
       type: LoadBalancer
